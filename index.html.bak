@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>邯郸婚车网_邯郸婚庆租车_邯郸婚车租赁_邯郸婚车价格-接亲网</title>
+    <link rel="stylesheet" href="css/index.css"/>
+    <link rel="stylesheet" href="css/font-awesome.min.css"/>
+</head>
+<body>
+    <div id="header">
+        <div class="w1100">
+            <div class="logo lf">
+                <a href="">
+                    <img src="imgs/public/logo.png" alt=""/>
+                </a>
+            </div>
+            <ul class="top_nav lf">
+                <li class="lf"><a href="">首页</a></li>
+                <li class="lf"><a href="">自选婚车</a></li>
+                <li class="lf"><a href="">婚车套餐</a></li>
+                <li class="lf"><a href="">发布车辆</a></li>
+                <li class="lf">
+                    <a href="">结婚必看 <i class="fa fa-angle-down"></i>
+					</a>
+					<ul class="drap_down">
+						<li><a href="">结婚资讯</a></li>
+						<li><a href="">结婚商家</a></li>
+					</ul>
+                </li>
+                <li class="lf">
+                    <a href="">帮助 <i class="fa fa-angle-down"></i></a>
+					<ul class="drap_down">
+						<li><a href="">订车帮助</a></li>
+						<li><a href="">车主帮助</a></li>
+						<li><a href="">平台保障</a></li>
+						<li><a href="">服务条款</a></li>
+						<li><a href="">关于接亲网</a></li>
+						<li><a href="">联系我们</a></li>
+					</ul>
+                </li>
+                <li class="lf"><a href="">APP下载</a></li>
+            </ul>
+            <div class="top_right rt">
+				<a href="">登陆</a> / <a href="">注册</a>
+			</div>
+        </div>
+    </div>
+    <div class="main">
+		<div id="banner">
+			<ul id="slider">
+				<li><img src="imgs/index/1.jpg" alt="#1" /></li>
+				<li><img src="imgs/index/d2.jpg" alt="#2" /></li>
+				<li><img src="imgs/index/d31.jpg" alt="#3" /></li>
+			</ul>
+			<ul id="idx">
+				<li class="lf active" id="1"></li>
+				<li class="lf" id="2"></li>
+				<li class="lf" id="3"></li>
+			</ul>	
+		</div>
+        <!--搜索婚车-->
+        <div class="search_car p20">
+            <div class="w1100">
+                <div class="lf search_left">
+                    <form action="">
+                        <input type="date" placeholder="接亲日期"/>
+                        <a href=""  id="show_brand" >车辆品牌</a>
+                        <input type="hidden"/>
+                        <a href="" class="search_btn">搜索婚车</a>
+                    </form>
+                </div>
+                <div class="rt search_right">
+                    <span>我是车主，我要发布我的车辆</span>
+                    <a href="" class="search_btn">免费发布</a>
+                </div>
+            </div>
+        </div>
+        <!--婚车推荐-->
+        <div class="recommend_car">
+            <ul class="recommend_car_content">
+                <li class="lf recommend_img">
+                    <dl>
+                        <dt>
+                            <img class="recommend_img" src="imgs/Upload/2015-12-18/56736c2ee9f79.jpg">
+                            <div>
+                                <p class="txtcenter">
+                                    <span class="f28">￥380</span>
+                                    <br/>
+                                    邯郸市区接亲</p>
+                            </div>
+                        </dt>
+                        <dd>奥迪-A6L <span class="txt_red f20 rt">￥380</span></dd>
+                    </dl>
+                </li>
+                <li class="lf recommend_img">
+                    <dl>
+                        <dt>
+                            <img class="recommend_img" src="imgs/Upload/2016-06-19/57664f9a38382.jpg">
+                        <div>
+                            <p class="txtcenter">
+                                <span class="f28">￥350</span>
+                                <br/>
+                                临漳县接亲</p>
+                        </div>
+                        </dt>
+                        <dd>奥迪-A6L <span class="txt_red f20 rt">￥350</span></dd>
+                    </dl>
+                </li>
+                <li class="lf recommend_img">
+                    <dl>
+                        <dt>
+                            <img class="recommend_img" src="imgs/Upload/2016-01-08/568f60e41f987.jpg">
+                        <div>
+                            <p class="txtcenter">
+                                <span class="f28">￥380</span>
+                                <br/>
+                                邯郸市区接亲</p>
+                        </div>
+                        </dt>
+                        <dd>保时捷-Panamera<span class="txt_red f20 rt">￥1000</span></dd>
+                    </dl>
+                </li>
+                <li class="lf recommend_img">
+                    <dl>
+                        <dt>
+                            <img class="recommend_img" src="imgs/Upload/2016-05-18/573c3e39b5bce.jpg">
+                        <div>
+                            <p class="txtcenter">
+                                <span class="f28">￥800</span>
+                                <br/>
+                                邯郸市区接亲</p>
+                        </div>
+                        </dt>
+                        <dd>奔驰-S级<span class="txt_red f20 rt">￥800</span></dd>
+                    </dl>
+                </li>
+                <li class="lf recommend_img">
+                    <dl>
+                        <dt>
+                            <img class="recommend_img" src="imgs/Upload/2016-08-01/579efff588f6b.jpg">
+                        <div>
+                            <p class="txtcenter">
+                                <span class="f28">￥900</span>
+                                <br/>
+                                永年县接亲</p>
+                        </div>
+                        </dt>
+                        <dd>奔驰-SLK级<span class="txt_red f20 rt">￥900</span></dd>
+                    </dl>
+                </li>
+                <li class="lf recommend_img">
+                    <dl>
+                        <dt>
+                            <img class="recommend_img" src="imgs/Upload/2016-04-26/571ed18eb1051.jpg">
+                        <div>
+                            <p class="txtcenter">
+                                <span class="f28">￥500</span>
+                                <br/>
+                                邯郸市区接亲</p>
+                        </div>
+                        </dt>
+                        <dd>奔驰-E级<span class="txt_red f20 rt">￥500</span></dd>
+                    </dl>
+                </li>
+                <li class="lf recommend_img">
+                    <dl>
+                        <dt>
+                            <img class="recommend_img" src="imgs/Upload/2016-01-01/56864438346c8.jpg">
+                        <div>
+                            <p class="txtcenter">
+                                <span class="f28">￥500</span>
+                                <br/>
+                                邯郸市区接亲</p>
+                        </div>
+                        </dt>
+                        <dd>宝马-5系 <span class="txt_red f20 rt">￥500</span></dd>
+                    </dl>
+                </li>
+                <li class="lf recommend_img">
+                    <dl>
+                        <dt>
+                            <img class="recommend_img" src="imgs/Upload/2015-12-19/56750c90b8d4a.jpg">
+                        <div>
+                            <p class="txtcenter">
+                                <span class="f28">￥500</span>
+                                <br/>
+                                邯郸市区接亲</p>
+                        </div>
+                        </dt>
+                        <dd>宝马-5系<span class="txt_red f20 rt">￥500</span></dd>
+                    </dl>
+                </li>
+                <li class="lf recommend_img">
+                    <dl>
+                        <dt>
+                            <img class="recommend_img" src="imgs/Upload/2016-03-17/56ea4ee3215e6.jpg">
+                        <div>
+                            <p class="txtcenter">
+                                <span class="f28">￥350</span>
+                                <br/>
+                                广平县接亲</p>
+                        </div>
+                        </dt>
+                        <dd>宝马-5系<span class="txt_red f20 rt">￥350</span></dd>
+                    </dl>
+                </li>
+                <li class="lf recommend_img">
+                    <dl>
+                        <dt>
+                            <img class="recommend_img" src="imgs/Upload/2015-12-11/566a7c8da00bf.jpg">
+                        <div>
+                            <p class="txtcenter">
+                                <span class="f28">￥600</span>
+                                <br/>
+                                邯郸市区接亲</p>
+                        </div>
+                        </dt>
+                        <dd>奔驰-M级<span class="txt_red f20 rt">￥600</span></dd>
+                    </dl>
+                </li>
+                <li class="lf recommend_img">
+                    <dl>
+                        <dt>
+                            <img class="recommend_img" src="imgs/Upload/2015-12-18/56736c2ee9f79.jpg">
+                        <div>
+                            <p class="txtcenter">
+                                <span class="f28">￥600</span>
+                                <br/>
+                                邯郸市区接亲</p>
+                        </div>
+                        </dt>
+                        <dd>雪佛兰-科迈罗<span class="txt_red f20 rt">￥600</span></dd>
+                    </dl>
+                </li>
+            </ul>
+        </div>
+        <div class="clear"></div>
+        <!--套餐-->
+        <div class=" taocan_full mt20">
+            <div class="w1100">
+                <ul class="pt20">
+                <li class="f30 txtcenter">互联网时代婚礼专车</li>
+                <li class="txtcenter">专注于婚车领域的汽车共享服务平台</li>
+            </ul>
+                <ul class="mt20 taocan_img">
+                    <li>
+                        <a href="">
+                            <img src="imgs/Index/b1.jpg">
+                        </a>
+                    </li><li>
+                        <a href="">
+                            <img src="imgs/Index/b2.jpg">
+                        </a>
+                    </li><li>
+                        <a href="">
+                            <img src="imgs/Index/b3.jpg">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="clear"></div>
+        <!--关于我们-->
+        <div class="about_full w1100">
+            <div class="about_title txtcenter f28">关于接亲网</div>
+            <div class="about f16">
+                <span class="f20 red">接亲网 </span>创立于2014年6月，是城市中共享车辆并提供接亲婚车的领先服务平台。我们相信通过互联网革新技术及“车共享”新理念，不但能够有效提高车辆的使用效率、降低汽车保有量、实现节能环保生活，更能让新婚的年轻朋友们享受到高性价比的婚礼体验，让城市更有人情味。<a href="Help/about" class="link f14" target="_blank">了解更多>></a>
+            </div>
+            <div>
+                <img src="imgs/Index/banner.jpg">
+            </div>
+        </div>
+        <!--用户展示-->
+        <div class="w1100 users_show">
+            <h1 class="f30 txtcenter p20">我要找婚车</h1>
+			<ul>
+				<li>
+					<div class="container">
+						<div><img src="imgs/rotate/s1.jpg" alt=""></div>
+						<div class="txtcenter">
+							<h2>价格便宜</h2>
+							低于市场30%以上的价格
+							享受高品质用车服务
+						</div>	
+					</div>
+				</li>
+				<li>
+					<div class="container">
+						<div><img src="imgs/rotate/s3.jpg" alt=""></div>
+						<div class="txtcenter">
+							<h2>个性化定制</h2>
+								车型丰富，酷炫个性化接亲
+								车队一切由您做主
+						</div>	
+					</div>
+				</li>
+				<li>
+					<div class="container">
+						<div><img src="imgs/rotate/s2.jpg" alt=""></div>
+						<div class="txtcenter">
+							<h2>放心无忧</h2>
+																
+									车源100%验真，车主交纳保证金
+									平台担保缺席双倍赔付
+						</div>	
+					</div>
+				</li>
+				
+			</ul>	
+            <h1 class="f30 txtcenter p20">我是车主</h1>
+			<ul>
+				<li>
+					<div class="container">
+						<div><img src="imgs/rotate/s4.jpg" alt=""></div>
+						<div class="txtcenter">
+							<h2>边玩边赚钱</h2>
+							
+								结交朋友，认识漂亮伴娘，每月赚取
+								2000元以上额外收入
+						</div>	
+					</div>
+				</li>
+				<li>
+					<div class="container">
+						<div><img src="imgs/rotate/s6.jpg" alt=""></div>
+						<div class="txtcenter">
+							<h2>自由灵活</h2>
+							
+								接亲价格、接亲时间、是否接单
+								一切由您决定
+						</div>	
+					</div>
+				</li>
+				<li>
+					<div class="container">
+						<div><img src="imgs/rotate/s5.jpg" alt=""></div>
+						<div class="txtcenter">
+							<h2>帮助他人快乐自己</h2>
+							
+								关爱、互助、分享新人结婚喜悦
+								传递社会正能量
+						</div>	
+					</div>
+				</li>
+			</ul>	
+        </div>
+		<!--看车主怎么说-->
+		<div class="comment_full w1100">
+			<div class="show_comment">
+				<div class="f30 txtcenter">看结婚新人怎么说</div>
+				<p class="txtcenter">这里有最真实的评价，全部来自于在接亲网平台订过婚车的用户。					我们不懈地努力，只为让新婚的年轻<br>
+						朋友们享受到高性价比的婚礼体验，让城市更有人情味
+				</p>
+				<div class="comment" style="width:1100px">
+					<a class="s_prev"><i class="fa fa-angle-left"></i></a>
+					<a class="s_next"><i class="fa fa-angle-right"></i></a>
+					<ul class="comment_ul">
+						<li>
+							<div class="comment_cont">
+							<div class="comment_head"><img src="Theme/Index/images/Mr.zhou.jpg" width="150" height="150"></div>
+							<div class="comment_name f18">周先生</div>
+							<div class="comment_phone f14">135****3470</div><i class="fa fa-quote-left"></i>在接亲网定了六辆统一黑色的奥迪A6做婚车，价格比婚庆公司要便宜很多，整个接亲环节都很愉快，还跟其中一位车主成了好朋友。</div>
+						</li>
+						<li>
+							<div class="comment_cont">
+							<div class="comment_head"><img src="Theme/Index/images/Ms.lu.jpg" width="150" height="150"></div>
+							<div class="comment_name f18">黄小姐</div>
+							<div class="comment_phone f14">186****5986</div><i class="fa fa-quote-left"></i>毕竟是结婚大事不敢马虎，看了接亲网的平台担保承诺感觉靠谱才放心订车。因为地图上我老公家地址不准，接亲当天有两位司机找地方耽误了十几分钟，好在影响不大。</div>
+						</li>
+
+						<li>
+							<div class="comment_cont">
+							<div class="comment_head"><img src="Theme/Index/images/Ms.huang.jpg" width="150" height="150"></div>
+							<div class="comment_name f18">黄小姐</div>
+							<div class="comment_phone f14">186****2340</div><i class="fa fa-quote-left"></i>父母说可以找亲戚朋友借车来接亲，我觉得挺麻烦的，万一碰上谁内心里面不情愿借车反而大家尴尬，在接亲网订婚车不欠人情。</div>
+						</li>
+						<li>
+							<div class="comment_cont">
+							<div class="comment_head"><img src="Theme/Index/images/Mr.deng.jpg" width="150" height="150"></div>
+							<div class="comment_name f18">邓先生</div>
+							<div class="comment_phone f14">185****3815</div><i class="fa fa-quote-left"></i>好朋友结婚时婚车全部是宝马奔驰，我之前还说这小子混得不错啊有这么多开豪车的朋友。是他介绍我来接亲网找婚车的，感觉这个平台很好，为新人解决了很多麻烦。</div>
+						</li>
+						<li>
+							<div class="comment_cont">
+							<div class="comment_head"><img src="Theme/Index/images/c5song.jpg" width="150" height="150"></div>
+							<div class="comment_name f18">宋先生</div>
+							<div class="comment_phone f14">150****3355</div><i class="fa fa-quote-left"></i>小城市想通过朋友凑齐统一车型颜色的婚车队伍不容易，接亲网出现得太及时了，刚好我结婚用上了，体验很好值得我代言。</div>
+						</li>
+						<li>
+							<div class="comment_cont">
+							<div class="comment_head"><img src="Theme/Index/images/c6peng.jpg" width="150" height="150"></div>
+							<div class="comment_name f18">彭小姐</div>
+							<div class="comment_phone f14">186****3935</div><i class="fa fa-quote-left"></i>找婚车的时候对比了又对比：传统的婚车租赁需要我们交订金，但是车主那边是无押金的，还是接亲网这种第三方平台好，收取双方的押金，感觉靠谱多了。</div>
+						</li>
+						<li>
+							<div class="comment_cont">
+							<div class="comment_head"><img src="Theme/Index/images/c7liu.jpg" width="150" height="150"></div>
+							<div class="comment_name f18">刘先生</div>
+							<div class="comment_phone f14">151****6666</div><i class="fa fa-quote-left"></i>用过接亲网的婚车后，跟所有未婚的朋友都建议以后不要找朋友帮忙接亲了，找朋友帮忙多欠人情啊？还是找这种有保障的平台订车方便。</div>
+						</li>
+						<li>
+							<div class="comment_cont">
+							<div class="comment_head"><img src="Theme/Index/images/c8li.jpg" width="150" height="150"></div>
+							<div class="comment_name f18">李先生</div>
+							<div class="comment_phone f14">189****1060</div><i class="fa fa-quote-left"></i>我自己也是接亲网的车主，在网站接了好几次单了，所以结婚的时候理所当然地在接亲网定婚车啦！兄弟们都很给力，还帮我抢新娘子了。</div>
+						</li>
+						<li>
+							<div class="comment_cont">
+							<div class="comment_head"><img src="Theme/Index/images/c9lan.jpg" width="150" height="150"></div>
+							<div class="comment_name f18">蓝小姐</div>
+							<div class="comment_phone f14">150****5932</div><i class="fa fa-quote-left"></i>好朋友结婚的时候我是伴娘，在路上跟司机交谈了几句才知道居然有这个网站，自己结婚的时候果断在接亲网定的婚车，接单的车主都向平台交了“出车保证金”，我也比较放心。</div>
+						</li>
+						<li>
+							<div class="comment_cont">
+							<div class="comment_head"><img src="Theme/Index/images/c10jiang.jpg" width="150" height="150"></div>
+							<div class="comment_name f18">蒋小姐</div>
+							<div class="comment_phone f14">180****7463</div><i class="fa fa-quote-left"></i>哥哥推荐给我的接亲网婚车，因为他结婚的时候就是在这里订的婚车，所以很信任。希望接亲网越做越好，早日覆盖全国所有的城市。</div>
+						</li>
+						<li>
+							<div class="comment_cont">
+							<div class="comment_head"><img src="Theme/Index/images/c11huang.jpg" width="150" height="150"></div>
+							<div class="comment_name f18">黄小姐</div>
+							<div class="comment_phone f14">135****8909</div><i class="fa fa-quote-left"></i>老公原本计划是让朋友们开车来帮忙接亲的，是我无意中逛到的接亲网，感觉在接亲网租用婚车不必麻烦朋友也不欠人情，于是果断在接亲网定了18辆婚车。</div>
+						</li>
+						<li>
+							<div class="comment_cont">
+							<div class="comment_head"><img src="Theme/Index/images/c12gong.jpg" width="150" height="150"></div>
+							<div class="comment_name f18">龚小姐</div>
+							<div class="comment_phone f14">152****7505</div><i class="fa fa-quote-left"></i>下单后马上就接到了客服的电话，说我接亲地址没有写清楚，整个订车流程都有专门的客服跟我沟通，感觉接亲网的服务很细致。</div>
+						</li>
+						<li>
+							<div class="comment_cont">
+							<div class="comment_head"><img src="Theme/Index/images/c13cai.jpg" width="150" height="150"></div>
+							<div class="comment_name f18">蔡先生</div>
+							<div class="comment_phone f14"> 150****6891</div><i class="fa fa-quote-left"></i>订了八辆婚车，就认识了八个新朋友，我觉得这种既能帮忙又能跟车主交朋友的感觉特别好，对于我们年轻人来说，朋友多了路好走啊！</div>
+						</li>
+						<li>
+							<div class="comment_cont">
+							<div class="comment_head"><img src="Theme/Index/images/c14zuo.jpg" width="150" height="150"></div>
+							<div class="comment_name f18">左先生</div>
+							<div class="comment_phone f14">130****2650</div><i class="fa fa-quote-left"></i>我们这用婚车比较讲究，朋友圈子的车还是不够好，接亲网的出现很及时啊，我结婚的时候刚好用上了，服务给好评！</div>
+						</li>
+						<li>
+							<div class="comment_cont">
+							<div class="comment_head"><img src="Theme/Index/images/c15zhang.jpg" width="150" height="150"></div>
+							<div class="comment_name f18">张先生</div>
+							<div class="comment_phone f14">181****9855</div><i class="fa fa-quote-left"></i>自己的车子也在接亲网接过单子，清楚全部的交易流程，这个网站主要是对新人太有保障了，比找朋友帮忙还要靠谱。五星推荐！</div>
+						</li>
+						<li>
+							<div class="comment_cont">
+							<div class="comment_head"><img src="Theme/Index/images/c16wu.jpg" width="150" height="150"></div>
+							<div class="comment_name f18">伍小姐</div>
+							<div class="comment_phone f14">155****1612</div><i class="fa fa-quote-left"></i>只在接亲网订了一辆主婚车，其他跟车是朋友们凑的，结果跟车都五花八门的不好看，早知道就全部在接亲网订统一车型颜色的婚车队了，反正又不贵。</div>
+						</li>
+
+					</ul>
+				</div>
+			</div>
+		</div>·
+	</div>
+    <div id="footer"></div>
+    <div class="mask"></div>
+    <div>
+        <div class="choose_brand">
+
+        <div class="choose_brand_title">
+            <a attr="0" class="in">热门品牌</a>
+            <a >A</a>
+            <a >B</a>
+            <a >C</a>
+            <a >D</a>
+            <a >F</a>
+            <a >G</a>
+            <a >H</a>
+            <a >I</a>
+            <a >J</a>
+            <a >K</a>
+            <a >L</a>
+            <a >M</a>
+            <a >N</a>
+            <a >O</a>
+            <a >P</a>
+            <a >Q</a>
+            <a >R</a>
+            <a >S</a>
+            <a >T</a>
+            <a >U</a>
+            <a >V</a>
+            <a >W</a>
+            <a >X</a>
+            <a >Y</a>
+            <a >Z</a>
+            <span class="bd_close">×</span>
+        </div>
+        <div class="choose_brand_content">
+            <ul id="bd_1">
+                <li><a>不限</a></li>
+                <li class="A" attr="0" hot="0"><a href="javascript:void(0);" class="carid" brand="144" pinyin=ACSchnitzer><img class="brand_icon" src="Public/Upload/brand/144.jpg"> AC Schnitzer</a></li><li class="A" attr="1" hot="0"><a href="javascript:void(0);" class="carid" brand="13" pinyin=AERFALUOMIOU><img class="brand_icon" src="Public/Upload/brand/13.jpg"> 阿尔法罗密欧</a></li><li class="A" attr="2" hot="80"><a href="javascript:void(0);" class="carid" brand="2" pinyin=AODI><img class="brand_icon" src="Public/Upload/brand/2.jpg"> 奥迪</a></li><li class="A" attr="3" hot="1"><a href="javascript:void(0);" class="carid" brand="12" pinyin=ASIDUNMADING><img class="brand_icon" src="Public/Upload/brand/12.jpg"> 阿斯顿·马丁</a></li><li class="B" attr="4" hot="0"><a href="javascript:void(0);" class="carid" brand="26" pinyin=BABOSI><img class="brand_icon" src="Public/Upload/brand/26.jpg"> 巴博斯</a></li><li class="B" attr="5" hot="0"><a href="javascript:void(0);" class="carid" brand="22" pinyin=BAOJUN><img class="brand_icon" src="Public/Upload/brand/22.jpg"> 宝骏</a></li><li class="B" attr="6" hot="80"><a href="javascript:void(0);" class="carid" brand="1" pinyin=BAOMA><img class="brand_icon" src="Public/Upload/brand/1.jpg"> 宝马</a></li><li class="B" attr="7" hot="80"><a href="javascript:void(0);" class="carid" brand="24" pinyin=BAOSHIJIE><img class="brand_icon" src="Public/Upload/brand/24.jpg"> 保时捷</a></li><li class="B" attr="8" hot="0"><a href="javascript:void(0);" class="carid" brand="21" pinyin=BEIJINGQICHE><img class="brand_icon" src="Public/Upload/brand/21.jpg"> 北京汽车</a></li><li class="B" attr="9" hot="0"><a href="javascript:void(0);" class="carid" brand="115" pinyin=BEIQISHENBAO><img class="brand_icon" src="Public/Upload/brand/115.jpg"> 北汽绅宝</a></li><li class="B" attr="10" hot="0"><a href="javascript:void(0);" class="carid" brand="23" pinyin=BEIQIWEIWANG><img class="brand_icon" src="Public/Upload/brand/23.jpg"> 北汽威旺</a></li><li class="B" attr="11" hot="0"><a href="javascript:void(0);" class="carid" brand="25" pinyin=BEIQIZHIZAO><img class="brand_icon" src="Public/Upload/brand/25.jpg"> 北汽制造</a></li><li class="B" attr="12" hot="80"><a href="javascript:void(0);" class="carid" brand="19" pinyin=BENCHI><img class="brand_icon" src="Public/Upload/brand/19.jpg"> 奔驰</a></li><li class="B" attr="13" hot="0"><a href="javascript:void(0);" class="carid" brand="20" pinyin=BENTENG><img class="brand_icon" src="Public/Upload/brand/20.jpg"> 奔腾</a></li><li class="B" attr="14" hot="80"><a href="javascript:void(0);" class="carid" brand="15" pinyin=BENTIAN><img class="brand_icon" src="Public/Upload/brand/15.jpg"> 本田</a></li><li class="B" attr="15" hot="80"><a href="javascript:void(0);" class="carid" brand="17" pinyin=BIAOZHI><img class="brand_icon" src="Public/Upload/brand/17.jpg"> 标致</a></li><li class="B" attr="16" hot="80"><a href="javascript:void(0);" class="carid" brand="14" pinyin=BIEKE><img class="brand_icon" src="Public/Upload/brand/14.jpg"> 别克</a></li><li class="B" attr="17" hot="0"><a href="javascript:void(0);" class="carid" brand="27" pinyin=BINLI><img class="brand_icon" src="Public/Upload/brand/27.jpg"> 宾利</a></li><li class="B" attr="18" hot="0"><a href="javascript:void(0);" class="carid" brand="16" pinyin=BIYADI><img class="brand_icon" src="Public/Upload/brand/16.jpg"> 比亚迪</a></li><li class="B" attr="19" hot="0"><a href="javascript:void(0);" class="carid" brand="28" pinyin=BUJIADI><img class="brand_icon" src="Public/Upload/brand/28.jpg"> 布加迪</a></li><li class="C" attr="20" hot="0"><a href="javascript:void(0);" class="carid" brand="29" pinyin=CHANGAN><img class="brand_icon" src="Public/Upload/brand/29.jpg"> 长安</a></li><li class="C" attr="21" hot="0"><a href="javascript:void(0);" class="carid" brand="31" pinyin=CHANGANSHANGYONG><img class="brand_icon" src="Public/Upload/brand/31.jpg"> 长安商用</a></li><li class="C" attr="22" hot="0"><a href="javascript:void(0);" class="carid" brand="30" pinyin=CHANGCHENG><img class="brand_icon" src="Public/Upload/brand/30.jpg"> 长城</a></li><li class="C" attr="23" hot="0"><a href="javascript:void(0);" class="carid" brand="32" pinyin=CHANGHE><img class="brand_icon" src="Public/Upload/brand/32.jpg"> 昌河</a></li><li class="D" attr="24" hot="0"><a href="javascript:void(0);" class="carid" brand="38" pinyin=DAOQI><img class="brand_icon" src="Public/Upload/brand/38.jpg"> 道奇</a></li><li class="D" attr="25" hot="80"><a href="javascript:void(0);" class="carid" brand="34" pinyin=DAZHONG><img class="brand_icon" src="Public/Upload/brand/34.jpg"> 大众</a></li><li class="D" attr="26" hot="0"><a href="javascript:void(0);" class="carid" brand="36" pinyin=DONGFENG><img class="brand_icon" src="Public/Upload/brand/36.jpg"> 东风</a></li><li class="D" attr="27" hot="0"><a href="javascript:void(0);" class="carid" brand="39" pinyin=DONGFENGFENGDU><img class="brand_icon" src="Public/Upload/brand/39.jpg"> 东风风度</a></li><li class="D" attr="28" hot="0"><a href="javascript:void(0);" class="carid" brand="40" pinyin=DONGFENGFENGSHEN><img class="brand_icon" src="Public/Upload/brand/40.jpg"> 东风风神</a></li><li class="D" attr="29" hot="0"><a href="javascript:void(0);" class="carid" brand="46" pinyin=DONGFENGFENGXING><img class="brand_icon" src="Public/Upload/brand/46.jpg"> 东风风行</a></li><li class="D" attr="30" hot="0"><a href="javascript:void(0);" class="carid" brand="37" pinyin=DONGFENGXIAOKANG><img class="brand_icon" src="Public/Upload/brand/37.jpg"> 东风小康</a></li><li class="D" attr="31" hot="0"><a href="javascript:void(0);" class="carid" brand="35" pinyin=DONGNAN><img class="brand_icon" src="Public/Upload/brand/35.jpg"> 东南</a></li><li class="D" attr="32" hot="0"><a href="javascript:void(0);" class="carid" brand="41" pinyin=DS><img class="brand_icon" src="Public/Upload/brand/41.jpg"> DS</a></li><li class="F" attr="33" hot="0"><a href="javascript:void(0);" class="carid" brand="49" pinyin=FALALI><img class="brand_icon" src="Public/Upload/brand/49.jpg"> 法拉利</a></li><li class="F" attr="34" hot="0"><a href="javascript:void(0);" class="carid" brand="47" pinyin=FEIYATE><img class="brand_icon" src="Public/Upload/brand/47.jpg"> 菲亚特</a></li><li class="F" attr="35" hot="80"><a href="javascript:void(0);" class="carid" brand="44" pinyin=FENGTIAN><img class="brand_icon" src="Public/Upload/brand/44.jpg"> 丰田</a></li><li class="F" attr="36" hot="0"><a href="javascript:void(0);" class="carid" brand="147" pinyin=FULAINA><img class="brand_icon" src="Public/Upload/brand/147.jpg"> 福莱纳</a></li><li class="F" attr="37" hot="80"><a href="javascript:void(0);" class="carid" brand="45" pinyin=FUTE><img class="brand_icon" src="Public/Upload/brand/45.jpg"> 福特</a></li><li class="F" attr="38" hot="0"><a href="javascript:void(0);" class="carid" brand="48" pinyin=FUTIAN><img class="brand_icon" src="Public/Upload/brand/48.jpg"> 福田</a></li><li class="G" attr="39" hot="0"><a href="javascript:void(0);" class="carid" brand="51" pinyin=GMC><img class="brand_icon" src="Public/Upload/brand/51.jpg"> GMC</a></li><li class="G" attr="40" hot="0"><a href="javascript:void(0);" class="carid" brand="148" pinyin=GUANGGANG><img class="brand_icon" src="Public/Upload/brand/148.jpg"> 光冈</a></li><li class="G" attr="41" hot="0"><a href="javascript:void(0);" class="carid" brand="50" pinyin=GUANGQICHUAN><img class="brand_icon" src="Public/Upload/brand/50.jpg"> 广汽传祺</a></li><li class="G" attr="42" hot="0"><a href="javascript:void(0);" class="carid" brand="52" pinyin=GUANZHI><img class="brand_icon" src="Public/Upload/brand/52.jpg"> 观致</a></li><li class="H" attr="43" hot="0"><a href="javascript:void(0);" class="carid" brand="55" pinyin=HAFEI><img class="brand_icon" src="Public/Upload/brand/55.jpg"> 哈飞</a></li><li class="H" attr="44" hot="0"><a href="javascript:void(0);" class="carid" brand="54" pinyin=HAFU><img class="brand_icon" src="Public/Upload/brand/54.jpg"> 哈弗</a></li><li class="H" attr="45" hot="0"><a href="javascript:void(0);" class="carid" brand="61" pinyin=HAIGE><img class="brand_icon" src="Public/Upload/brand/61.jpg"> 海格</a></li><li class="H" attr="46" hot="0"><a href="javascript:void(0);" class="carid" brand="53" pinyin=HAIMA><img class="brand_icon" src="Public/Upload/brand/53.jpg"> 海马</a></li><li class="H" attr="47" hot="0"><a href="javascript:void(0);" class="carid" brand="62" pinyin=HANMA><img class="brand_icon" src="Public/Upload/brand/62.jpg"> 悍马</a></li><li class="H" attr="48" hot="0"><a href="javascript:void(0);" class="carid" brand="63" pinyin=HENGTIAN><img class="brand_icon" src="Public/Upload/brand/63.jpg"> 恒天</a></li><li class="H" attr="49" hot="0"><a href="javascript:void(0);" class="carid" brand="60" pinyin=HONGQI><img class="brand_icon" src="Public/Upload/brand/60.jpg"> 红旗</a></li><li class="H" attr="50" hot="0"><a href="javascript:void(0);" class="carid" brand="58" pinyin=HUANGHAI><img class="brand_icon" src="Public/Upload/brand/58.jpg"> 黄海</a></li><li class="H" attr="51" hot="0"><a href="javascript:void(0);" class="carid" brand="57" pinyin=HUAPU><img class="brand_icon" src="Public/Upload/brand/57.jpg"> 华普</a></li><li class="H" attr="52" hot="0"><a href="javascript:void(0);" class="carid" brand="56" pinyin=HUATAI><img class="brand_icon" src="Public/Upload/brand/56.jpg"> 华泰</a></li><li class="H" attr="53" hot="0"><a href="javascript:void(0);" class="carid" brand="59" pinyin=HUIZHONG><img class="brand_icon" src="Public/Upload/brand/59.jpg"> 汇众</a></li><li class="J" attr="54" hot="0"><a href="javascript:void(0);" class="carid" brand="69" pinyin=JEEP><img class="brand_icon" src="Public/Upload/brand/69.jpg"> Jeep</a></li><li class="J" attr="55" hot="0"><a href="javascript:void(0);" class="carid" brand="64" pinyin=JIANGHUAI><img class="brand_icon" src="Public/Upload/brand/64.jpg"> 江淮</a></li><li class="J" attr="56" hot="0"><a href="javascript:void(0);" class="carid" brand="72" pinyin=JIANGLING><img class="brand_icon" src="Public/Upload/brand/72.jpg"> 江铃</a></li><li class="J" attr="57" hot="80"><a href="javascript:void(0);" class="carid" brand="73" pinyin=JIEBAO><img class="brand_icon" src="Public/Upload/brand/73.jpg"> 捷豹</a></li><li class="J" attr="58" hot="0"><a href="javascript:void(0);" class="carid" brand="67" pinyin=JILI><img class="brand_icon" src="Public/Upload/brand/67.jpg"> 吉利</a></li><li class="J" attr="59" hot="0"><a href="javascript:void(0);" class="carid" brand="65" pinyin=JINBEI><img class="brand_icon" src="Public/Upload/brand/65.jpg"> 金杯</a></li><li class="K" attr="60" hot="0"><a href="javascript:void(0);" class="carid" brand="78" pinyin=KAERSEN><img class="brand_icon" src="Public/Upload/brand/78.jpg"> 卡尔森</a></li><li class="K" attr="61" hot="80"><a href="javascript:void(0);" class="carid" brand="74" pinyin=KAIDILAKE><img class="brand_icon" src="Public/Upload/brand/74.jpg"> 凯迪拉克</a></li><li class="K" attr="62" hot="0"><a href="javascript:void(0);" class="carid" brand="76" pinyin=KAIRUI><img class="brand_icon" src="Public/Upload/brand/76.jpg"> 开瑞</a></li><li class="K" attr="63" hot="0"><a href="javascript:void(0);" class="carid" brand="149" pinyin=KAIYI><img class="brand_icon" src="Public/Upload/brand/149.jpg"> 凯翼</a></li><li class="K" attr="64" hot="0"><a href="javascript:void(0);" class="carid" brand="75" pinyin=KELAISILE><img class="brand_icon" src="Public/Upload/brand/75.jpg"> 克莱斯勒</a></li><li class="K" attr="65" hot="0"><a href="javascript:void(0);" class="carid" brand="80" pinyin=KENISAIKE><img class="brand_icon" src="Public/Upload/brand/80.jpg"> 科尼赛克</a></li><li class="K" attr="66" hot="0"><a href="javascript:void(0);" class="carid" brand="77" pinyin=KTM><img class="brand_icon" src="Public/Upload/brand/77.jpg"> KTM</a></li><li class="L" attr="67" hot="0"><a href="javascript:void(0);" class="carid" brand="89" pinyin=LANBOJINI><img class="brand_icon" src="Public/Upload/brand/89.jpg"> 兰博基尼</a></li><li class="L" attr="68" hot="0"><a href="javascript:void(0);" class="carid" brand="91" pinyin=LAOSILAISI><img class="brand_icon" src="Public/Upload/brand/91.jpg"> 劳斯莱斯</a></li><li class="L" attr="69" hot="0"><a href="javascript:void(0);" class="carid" brand="82" pinyin=LEIKESASI><img class="brand_icon" src="Public/Upload/brand/82.jpg"> 雷克萨斯</a></li><li class="L" attr="70" hot="0"><a href="javascript:void(0);" class="carid" brand="86" pinyin=LEINUO><img class="brand_icon" src="Public/Upload/brand/86.jpg"> 雷诺</a></li><li class="L" attr="71" hot="0"><a href="javascript:void(0);" class="carid" brand="87" pinyin=LIANHUAQICHE><img class="brand_icon" src="Public/Upload/brand/87.jpg"> 莲花汽车</a></li><li class="L" attr="72" hot="0"><a href="javascript:void(0);" class="carid" brand="85" pinyin=LIEBAOQICHE><img class="brand_icon" src="Public/Upload/brand/85.jpg"> 猎豹汽车</a></li><li class="L" attr="73" hot="0"><a href="javascript:void(0);" class="carid" brand="83" pinyin=LIFAN><img class="brand_icon" src="Public/Upload/brand/83.jpg"> 力帆</a></li><li class="L" attr="74" hot="0"><a href="javascript:void(0);" class="carid" brand="81" pinyin=LINGMU><img class="brand_icon" src="Public/Upload/brand/81.jpg"> 铃木</a></li><li class="L" attr="75" hot="0"><a href="javascript:void(0);" class="carid" brand="92" pinyin=LINKEN><img class="brand_icon" src="Public/Upload/brand/92.jpg"> 林肯</a></li><li class="L" attr="76" hot="0"><a href="javascript:void(0);" class="carid" brand="88" pinyin=LUFENG><img class="brand_icon" src="Public/Upload/brand/88.jpg"> 陆风</a></li><li class="L" attr="77" hot="0"><a href="javascript:void(0);" class="carid" brand="84" pinyin=LUHU><img class="brand_icon" src="Public/Upload/brand/84.jpg"> 路虎</a></li><li class="L" attr="78" hot="0"><a href="javascript:void(0);" class="carid" brand="93" pinyin=LUTESI><img class="brand_icon" src="Public/Upload/brand/93.jpg"> 路特斯</a></li><li class="M" attr="79" hot="0"><a href="javascript:void(0);" class="carid" brand="145" pinyin=MAIBAHE><img class="brand_icon" src="Public/Upload/brand/145.jpg"> 迈巴赫</a></li><li class="M" attr="80" hot="0"><a href="javascript:void(0);" class="carid" brand="99" pinyin=MAIKAILUN><img class="brand_icon" src="Public/Upload/brand/99.jpg"> 迈凯伦</a></li><li class="M" attr="81" hot="80"><a href="javascript:void(0);" class="carid" brand="97" pinyin=MASHALADI><img class="brand_icon" src="Public/Upload/brand/97.jpg"> 玛莎拉蒂</a></li><li class="M" attr="82" hot="80"><a href="javascript:void(0);" class="carid" brand="94" pinyin=MAZIDA><img class="brand_icon" src="Public/Upload/brand/94.jpg"> 马自达</a></li><li class="M" attr="83" hot="0"><a href="javascript:void(0);" class="carid" brand="95" pinyin=MG><img class="brand_icon" src="Public/Upload/brand/95.jpg"> MG</a></li><li class="M" attr="84" hot="0"><a href="javascript:void(0);" class="carid" brand="96" pinyin=MINI><img class="brand_icon" src="Public/Upload/brand/96.jpg"> MINI</a></li><li class="N" attr="85" hot="0"><a href="javascript:void(0);" class="carid" brand="100" pinyin=NAZHIJIE><img class="brand_icon" src="Public/Upload/brand/100.jpg"> 纳智捷</a></li><li class="O" attr="86" hot="0"><a href="javascript:void(0);" class="carid" brand="102" pinyin=OUBAO><img class="brand_icon" src="Public/Upload/brand/102.jpg"> 欧宝</a></li><li class="O" attr="87" hot="0"><a href="javascript:void(0);" class="carid" brand="103" pinyin=OUGE><img class="brand_icon" src="Public/Upload/brand/103.jpg"> 讴歌</a></li><li class="P" attr="88" hot="0"><a href="javascript:void(0);" class="carid" brand="104" pinyin=PAJIANI><img class="brand_icon" src="Public/Upload/brand/104.jpg"> 帕加尼</a></li><li class="P" attr="89" hot="0"><a href="javascript:void(0);" class="carid" brand="146" pinyin=PIDEBIERTE><img class="brand_icon" src="Public/Upload/brand/146.jpg"> 彼得比尔特</a></li><li class="Q" attr="90" hot="0"><a href="javascript:void(0);" class="carid" brand="107" pinyin=QICHEN><img class="brand_icon" src="Public/Upload/brand/107.jpg"> 启辰</a></li><li class="Q" attr="91" hot="0"><a href="javascript:void(0);" class="carid" brand="105" pinyin=QIRUI><img class="brand_icon" src="Public/Upload/brand/105.jpg"> 奇瑞</a></li><li class="Q" attr="92" hot="80"><a href="javascript:void(0);" class="carid" brand="106" pinyin=QIYA><img class="brand_icon" src="Public/Upload/brand/106.jpg"> 起亚</a></li><li class="R" attr="93" hot="80"><a href="javascript:void(0);" class="carid" brand="108" pinyin=RICHAN><img class="brand_icon" src="Public/Upload/brand/108.jpg"> 日产</a></li><li class="R" attr="94" hot="0"><a href="javascript:void(0);" class="carid" brand="109" pinyin=RONGWEI><img class="brand_icon" src="Public/Upload/brand/109.jpg"> 荣威</a></li><li class="R" attr="95" hot="0"><a href="javascript:void(0);" class="carid" brand="110" pinyin=RUI><img class="brand_icon" src="Public/Upload/brand/110.jpg"> 瑞麒</a></li><li class="S" attr="96" hot="0"><a href="javascript:void(0);" class="carid" brand="122" pinyin=SABO><img class="brand_icon" src="Public/Upload/brand/122.jpg"> 萨博</a></li><li class="S" attr="97" hot="0"><a href="javascript:void(0);" class="carid" brand="112" pinyin=SANLING><img class="brand_icon" src="Public/Upload/brand/112.jpg"> 三菱</a></li><li class="S" attr="98" hot="0"><a href="javascript:void(0);" class="carid" brand="123" pinyin=SHANGQIDATONG><img class="brand_icon" src="Public/Upload/brand/123.jpg"> 上汽大通</a></li><li class="S" attr="99" hot="0"><a href="javascript:void(0);" class="carid" brand="124" pinyin=SHIJUE><img class="brand_icon" src="Public/Upload/brand/124.jpg"> 世爵</a></li><li class="S" attr="100" hot="0"><a href="javascript:void(0);" class="carid" brand="116" pinyin=SHUANGHUAN><img class="brand_icon" src="Public/Upload/brand/116.jpg"> 双环</a></li><li class="S" attr="101" hot="0"><a href="javascript:void(0);" class="carid" brand="117" pinyin=SHUANGLONG><img class="brand_icon" src="Public/Upload/brand/117.jpg"> 双龙</a></li><li class="S" attr="102" hot="0"><a href="javascript:void(0);" class="carid" brand="114" pinyin=SIBALU><img class="brand_icon" src="Public/Upload/brand/114.jpg"> 斯巴鲁</a></li><li class="S" attr="103" hot="0"><a href="javascript:void(0);" class="carid" brand="111" pinyin=SIKEDA><img class="brand_icon" src="Public/Upload/brand/111.jpg"> 斯柯达</a></li><li class="S" attr="104" hot="0"><a href="javascript:void(0);" class="carid" brand="113" pinyin=SMART><img class="brand_icon" src="Public/Upload/brand/113.jpg"> smart</a></li><li class="S" attr="105" hot="0"><a href="javascript:void(0);" class="carid" brand="121" pinyin=SSC><img class="brand_icon" src="Public/Upload/brand/121.jpg"> SSC</a></li><li class="T" attr="106" hot="0"><a href="javascript:void(0);" class="carid" brand="127" pinyin=TENGSHI><img class="brand_icon" src="Public/Upload/brand/127.jpg"> 腾势</a></li><li class="T" attr="107" hot="0"><a href="javascript:void(0);" class="carid" brand="126" pinyin=TESLA><img class="brand_icon" src="Public/Upload/brand/126.jpg"> 特斯拉</a></li><li class="W" attr="108" hot="0"><a href="javascript:void(0);" class="carid" brand="130" pinyin=WEI><img class="brand_icon" src="Public/Upload/brand/130.jpg"> 威麟</a></li><li class="W" attr="109" hot="0"><a href="javascript:void(0);" class="carid" brand="129" pinyin=WOERWO><img class="brand_icon" src="Public/Upload/brand/129.jpg"> 沃尔沃</a></li><li class="W" attr="110" hot="0"><a href="javascript:void(0);" class="carid" brand="128" pinyin=WULINGQICHE><img class="brand_icon" src="Public/Upload/brand/128.jpg"> 五菱汽车</a></li><li class="X" attr="111" hot="80"><a href="javascript:void(0);" class="carid" brand="132" pinyin=XIANDAI><img class="brand_icon" src="Public/Upload/brand/132.jpg"> 现代</a></li><li class="X" attr="112" hot="0"><a href="javascript:void(0);" class="carid" brand="135" pinyin=XIYATE><img class="brand_icon" src="Public/Upload/brand/135.jpg"> 西雅特</a></li><li class="X" attr="113" hot="80"><a href="javascript:void(0);" class="carid" brand="133" pinyin=XUEFOLAN><img class="brand_icon" src="Public/Upload/brand/133.jpg"> 雪佛兰</a></li><li class="X" attr="114" hot="0"><a href="javascript:void(0);" class="carid" brand="134" pinyin=XUETIELONG><img class="brand_icon" src="Public/Upload/brand/134.jpg"> 雪铁龙</a></li><li class="Y" attr="115" hot="0"><a href="javascript:void(0);" class="carid" brand="33" pinyin=YEMAQICHE><img class="brand_icon" src="Public/Upload/brand/33.jpg"> 野马汽车</a></li><li class="Y" attr="116" hot="0"><a href="javascript:void(0);" class="carid" brand="137" pinyin=YINGFEINIDI><img class="brand_icon" src="Public/Upload/brand/137.jpg"> 英菲尼迪</a></li><li class="Y" attr="117" hot="0"><a href="javascript:void(0);" class="carid" brand="136" pinyin=YIQI><img class="brand_icon" src="Public/Upload/brand/136.jpg"> 一汽</a></li><li class="Y" attr="118" hot="0"><a href="javascript:void(0);" class="carid" brand="139" pinyin=YONGYUAN><img class="brand_icon" src="Public/Upload/brand/139.jpg"> 永源</a></li><li class="Z" attr="119" hot="0"><a href="javascript:void(0);" class="carid" brand="140" pinyin=ZHONGHUA><img class="brand_icon" src="Public/Upload/brand/140.jpg"> 中华</a></li><li class="Z" attr="120" hot="0"><a href="javascript:void(0);" class="carid" brand="141" pinyin=ZHONGTAI><img class="brand_icon" src="Public/Upload/brand/141.jpg"> 众泰</a></li><li class="Z" attr="121" hot="0"><a href="javascript:void(0);" class="carid" brand="142" pinyin=ZHONGXING><img class="brand_icon" src="Public/Upload/brand/142.jpg"> 中兴</a></li>        </ul>
+        </div>
+    </div>
+    </div>
+<script src="js/jquery-1.11.3.js"></script>
+<script src="js/index.js"></script>
+</body>
+</html>
